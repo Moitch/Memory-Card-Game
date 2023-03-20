@@ -5,6 +5,9 @@ Mitchell Foley
 COMP-4478
 **Unity Version 2021.3.21f1**
 
+![image](https://user-images.githubusercontent.com/55286115/226473110-4852dbd3-5d7c-4746-b7bf-23f8ced49fa3.png)
+
+
 **CardScript.cs**
 
 Initializes many variables including references to LogicScript.cs with the variable logic and the SpriteRenderer for the card.
@@ -19,6 +22,9 @@ back over then it will flip back over.
 
 Lastly it uses the TwoCardsFlipped() function to check if there are already two cards flipped, if not then it flips the card, checks
 which card was flipped with WhichCardFlipped(), and then checks to see if the cards are matching cards wwith CheckMatchingCards().
+
+![image](https://user-images.githubusercontent.com/55286115/226473189-01a6c85d-410a-4e91-bee5-01bdf78e9ef9.png)
+
 
 **-------------------------------------------------------------------------------------------------------**
 
@@ -61,5 +67,6 @@ RestartGame() reinitializes the game when the Play Again button is clicked after
 
 GameWon() sets the gameOverScreen to active, it congratulates the player and asks if they want to play again.
 
+![image](https://user-images.githubusercontent.com/55286115/226473211-6063d58e-4fae-4a35-b50e-2736c9fa2ef1.png)
 
 
