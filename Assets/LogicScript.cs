@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class LogicScript : MonoBehaviour
 {
     public GameObject card;
+    public GameObject gameOverScreen;
     public float yPosition;
     public float xPosition;
     public List<int> cardId = new() { 0, 1, 2, 3, 0, 1, 2, 3 };
@@ -15,7 +16,7 @@ public class LogicScript : MonoBehaviour
     public int[] cardsFlipped = { -1, -2 };
     public int randomNumber = 0;
     public int matchCount = 0;
-    public GameObject gameOverScreen;
+    
 
     // Start is called before the first frame update
     void Start()
